@@ -6,7 +6,7 @@
 #    By: ggaudin- <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/11/07 17:13:06 by ggaudin-          #+#    #+#              #
-#    Updated: 2017/08/25 06:21:13 by ggaudin-         ###   ########.fr        #
+#    Updated: 2017/11/27 10:49:03 by ggaudin-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,6 +15,7 @@ NAME = libft.a
 SRC_IN = $(addprefix ./srcs/, $(SRC))
 
 SRC = ft_abs.c\
+	  ft_b.c\
       ft_sqrt.c\
       ft_strnbelem.c\
 	  ft_strlen.c\

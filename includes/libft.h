@@ -6,7 +6,7 @@
 /*   By: ggaudin- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/07 09:46:06 by ggaudin-          #+#    #+#             */
-/*   Updated: 2017/08/25 06:20:58 by ggaudin-         ###   ########.fr       */
+/*   Updated: 2017/11/27 13:31:43 by ggaudin-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,7 @@ typedef struct	s_list
 	struct s_list	*next;
 }				t_list;
 
+void			ft_b(int i, const char *s);
 float			ft_sqrt(int n);
 ssize_t			ft_strnbelem(const char *s, const char sep);
 ssize_t			ft_abs(ssize_t nb);
