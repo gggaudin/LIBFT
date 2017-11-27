@@ -6,7 +6,7 @@
 /*   By: ggaudin- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/07 09:46:06 by ggaudin-          #+#    #+#             */
-/*   Updated: 2017/11/27 13:31:43 by ggaudin-         ###   ########.fr       */
+/*   Updated: 2017/11/27 14:18:08 by ggaudin-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@
 # include <stdlib.h>
 # include <string.h>
 # include "get_next_line.h"
+
+# define B __FUNCTION__
 
 typedef struct	s_list
 {
